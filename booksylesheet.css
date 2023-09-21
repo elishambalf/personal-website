@@ -1,0 +1,121 @@
+
+
+body{
+    background-color: lemonchiffon;
+}
+
+.preheader{
+    text-align: center;
+
+}
+
+.preheader h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(161, 84, 48);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 10px;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.preheader nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    padding: 20px;
+
+}
+
+.search{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.search form input{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40%;
+    border: none;
+    border-radius: 50px;
+    padding-left: 15px;
+
+}
+
+.search form button{
+border: none;
+width: 100px;
+height: 40px;
+background-color: rgb(186, 151, 95);
+color: antiquewhite;
+border-radius: 10px;
+font-weight: 900;
+}
+
+section{
+    width: 50%;
+    margin:auto
+
+}
+
+section .each-book img{
+width: 150px;
+height:auto;
+
+}
+
+section .each-book{
+    display: flex;
+    margin-bottom: 30px;
+    border: 2px solid rgba(164, 162, 162, 0.404);
+    border-top-style: none;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+
+
+}
+
+section .each-book .info{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section .each-book .info h3{
+font-weight: 900;
+}
+
+section .each-book .info h2{
+    font-weight: 900;
+    color: darkkhaki;
+
+}
+
+section .each-book img{
+    width: 150px;
+    height: auto;
+   
+}
+
+img {
+    border: 10px double #000000;
+    border-radius: 10px;
+  }
+
+h2 {
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(193, 255, 190);
+    border: 2px dotted black;
+    border-radius: 500px;
+    width: 300px;
+    height: 50px;
+    
+    
+}
+
